@@ -21,9 +21,9 @@ test {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "sonar-qube-app"
+        property "sonar.projectKey", "axel-ayala-jalafund_software-6-sonar-qube-java"
         property "sonar.organization", "axel-ayala-jalafund"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.token", project.ext.SONAR_TOKEN
+        property "sonar.token", System.getenv("SONAR_TOKEN")
     }
 }
