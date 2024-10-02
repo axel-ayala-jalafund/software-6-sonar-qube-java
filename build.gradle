@@ -24,8 +24,8 @@ test {
 jacocoTestReport {
     dependsOn test
     reports {
-        xml.required.set(true)  // Habilita el informe XML
-        html.required.set(true)  // Habilita el informe HTML
+        xml.required.set(true)
+        html.required.set(true) 
     }
 }
 
