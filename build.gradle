@@ -24,6 +24,6 @@ sonarqube {
         property "sonar.projectKey", "sonar-qube-app"
         property "sonar.organization", "axel-ayala-jalafund"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.login", project.ext.SONAR_TOKEN
+        property "sonar.token", project.ext.SONAR_TOKEN
     }
 }
