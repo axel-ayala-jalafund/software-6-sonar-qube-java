@@ -22,7 +22,8 @@ test {
 sonarqube {
     properties {
         property "sonar.projectKey", "sonar-qube-app"
-        property "sonar.host.url", "http://localhost:9000"
-        property "sonar.token", "sqa_fbead2bf3cc1de5798a8808c3074260c3a130c12"
+        property "sonar.organization", "axel-ayala-jalafund"
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.login", project.ext.SONAR_TOKEN
     }
 }
